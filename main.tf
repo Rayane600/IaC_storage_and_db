@@ -8,7 +8,7 @@ provider "azurerm" {
 
 # Create Storage Account 
 resource "azurerm_storage_account" "sg1" { 
- name      =  "csestoragelogojohn" #add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
+ name      =  "logoTeam14" #add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
  resource_group_name   =  var.rg_name
  location     =  var.location
  # Performance tier: Standard (HDD-backed)
